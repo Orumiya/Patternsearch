@@ -166,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\Documents\mérnökinfó\5.félév\C++\top3000words.txt" />
+    <Text Include="testWordList.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,6 +20,7 @@ public:
 	map<int, string> _mapOfNumbers;
 
 	void backTrack(int, vector<string>*, bool, vector<string>*);
+	bool searchInDictionary(char, vector<string>*, int);
 
 private: 
 	
