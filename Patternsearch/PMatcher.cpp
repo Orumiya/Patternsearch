@@ -91,8 +91,8 @@ bool PMatcher::searchInDictionary(char searchLetter, vector<string>* partialSolu
 	vector<string>::iterator it = _dictionary->begin();
 	bool isPartialSolution_ = false;
 	while (it != _dictionary->end()) {
-
-		if ((*it).at(index) == searchLetter)
+		int wordsize_ = (*it).size();
+		if (index < wordsize_  && (*it).at(index) == searchLetter)
 		{
 			partialSolutions_->push_back((*it));
 			cout << (*it) << endl;
