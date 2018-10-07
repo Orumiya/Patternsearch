@@ -60,7 +60,8 @@ void PMatcher::readDictionary(string filename_) {
 }
 
 void PMatcher::backTrack(int level_, vector<string>* partialSolutions_, bool isSolution_, vector<string>* finalSolutions_) {
-	level_ = ""
+	string input = "7822377";
+	level_ = 7;
 	map<int, string> ::iterator mapIterator = _mapOfNumbers.begin();
 
 
